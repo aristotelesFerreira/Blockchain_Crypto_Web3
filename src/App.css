@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #25889347;
+  height: 1000px;
 }
 
 .App-logo {
@@ -26,6 +28,88 @@
 
 .App-link {
   color: #61dafb;
+}
+.container {
+  background-color: rgb(19, 17, 17);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.lubyGame {
+  left: 0px;
+  position: absolute;
+  margin-left: 10px;
+  color: white;
+}
+.boxBalance {
+  background-color: white;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.boxClaim {
+  margin-top: 10px;
+  position: absolute;
+  right: 0px;
+  margin-right: 10px;
+}
+.txtClaim {
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.buttonStart {
+  color: rgb(236, 235, 235);
+  background-color: rgb(22, 25, 212);
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 0px;
+  cursor: pointer;
+}
+.buttonQuit {
+  color: black;
+  background-color: rgb(241, 15, 15);
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  border: 0px;
+  cursor: pointer;
+}
+.buttonWin {
+  color: black;
+  background-color: rgb(29, 212, 22);
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 0px;
+  cursor: pointer;
+}
+.txt {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
